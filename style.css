@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F4B61E;
+}
+
+
+.navegacao ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #F4B61E;
+}
+.navegacao ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+#sobre {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url(Imagens/teste-imagem2.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat;
+}
+
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sobre-nome {
+    color: #F4B61E;
+    font-size: 36px;
+    margin: 20px;
+}
+
+.sobre-titulo {
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.sobre-descricao {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+#formacao {
+    text-align: justify;
+    padding: 50px 150px;
+    background-color: #110808;  
+}
+
+.formacao-titulo {
+    color: #F4B61E;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.formacao-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.formacao-lista h3 {
+    font-size: 22px;
+    color: #F4B61E;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.formacao-lista a {
+    color:white;
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-inline-start: 20px;
+}
+
+.formacao-lista p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-inline-start: 20px;
+    color: whitesmoke;
+}
+
+#experiencias {
+    background-color: black;
+    padding: 50px 150px;
+}
+
+.experiencia-titulo {
+    color: #F4B61E;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.experiencia-lista {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.experiencia-lista h3 {
+    font-size: 22px;
+    color: #F4B61E;;
+    margin-bottom: 10px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.experiencia-lista a {
+    text-align:justify;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-inline-start: 20px;
+}
+
+.experiencia-lista p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-inline-start: 20px;
+}
+
+#contato {
+    padding: 50px 150px;
+    background-color: #110808;
+}
+
+.contato-titulo {
+    color: #F4B61E;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contato-input input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.contato-input textarea {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato-input label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.btn-enviar {
+    background-color: #938DF8;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.rodape {
+    background-color: black;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape-contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-contatos a {
+    color: #F4B61E;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.rodape-contatos img {
+    vertical-align: middle;
+}
+
+.logo-minas {
+    height: 80px;
+}
